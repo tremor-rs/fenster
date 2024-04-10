@@ -150,7 +150,7 @@ impl TimeWindow {
     /// keeps track of it at a granularity of `100` ms we would use:
     ///
     /// ```
-    /// use window::TimeWindow;
+    /// use fenster::TimeWindow;
     /// TimeWindow::new(10, 100, 1000);
     /// ````
 
